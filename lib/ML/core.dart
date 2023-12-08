@@ -57,7 +57,7 @@ class _CoreState extends State<Core> {
       result = "";
 
       for (var response in recognition!) {
-        print("risav");
+        print("rijan");
         result += response["label"] +
             "  " +
             (response["confidence"] as double).toStringAsFixed(2) +
